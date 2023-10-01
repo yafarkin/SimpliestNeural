@@ -1,3 +1,3 @@
 ﻿namespace Dots;
 
-public record PointWithType(int X, int Y, int Type);
+public record PointWithType(double Left, double Top, bool Type);
